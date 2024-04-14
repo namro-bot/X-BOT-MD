@@ -16,5 +16,5 @@ module.exports = {
   CAPTION: process.env.CAPTION || "X-BOT-MD V-2.00",
   TENORAPI: process.env.TENOR_API_KEY || "AIzaSyCyouca1_KKy4W_MG1xsPzuku5oa8W358c",
   PORT: process.env.PORT || "9000",
-  PREFIX: process.env.PREFIX || ".",
+  PREFIX:/ process.env.PREFIX || "/",
 };
